@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Pricing Wald Bikerack{%endblock %}
+{% block meta_description %}Find our current prices for all major Dental Procedures.{% endblock %}
+
+{% block content %}
+
+
+
+  <!-- ***** Breadcrumb Area Start ***** -->
+  <div class="breadcumb-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/12.jpg' %});">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12">
+          <h2 class="title">Our Pricing</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="breadcumb--con">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Daftar Harga</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Breadcrumb Area End ***** -->
+
+ <!-- bikerack Pricing Table Area Start -->
+  <section class="bikerack-pricing-table-area section-padding-100">
+    <div class="container">
+      <div class="row">
+        <!-- Section Heading -->
+        <div class="col-12">
+          <div class="section-heading text-center">
+            <h2>Harga</h2>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="bikerack-price-table table-responsive">
+            <table class="table table-borderless mb-0">
+              <thead>
+                <tr>
+                  <th scope="col">Bikerack Category</th>
+                  <th scope="col">Stage</th>
+                  <th scope="col">Harga</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Rak sepeda penggunaan dalam ruangan.</th>
+                  <td>1</td>
+                  <td>3.733.000</td>
+                </tr>
+                <tr>
+                  <th scope="row">Jika anda ingin dicat dengan warna tertentu.</th>
+                  <td>1</td>
+                  <td>4.337.000</td>
+                </tr>
+                <tr>
+                  <th scope="row">Jika menjadi pekerjaan cat multi-warna.</th>
+                  <td>1</td>
+                  <td>5.050.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="more-btn text-center mt-50">
+            <a href="{% url 'service' %}" class="btn bikerack-btn">Read More <i class="fa fa-angle-double-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- bikerack Pricing Table Area End -->
+
+
+{% endblock %}
