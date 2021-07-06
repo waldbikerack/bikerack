@@ -1,7 +1,7 @@
 /* ---------------------------------------------
 [Master Stylesheet]
 
-Template Name: Dento - dentist & Medical Template
+Template Name: Dento - Dentist & Medical Template
 Template Author: Colorlib
 Version: 1.0.0
 Last Update: Dec 05, 2018
@@ -19,7 +19,7 @@ Last Update: Dec 05, 2018
   - 7.0 Header CSS
   - 8.0 Hero CSS
   - 9.0 Testimoial CSS
-  - 10.0 dentist CSS
+  - 10.0 Dentist CSS
   - 11.0 Appointment CSS
   - 12.0 Pricing CSS
   - 13.0 Service CSS
@@ -58,7 +58,7 @@ Last Update: Dec 05, 2018
 @import url(owl.carousel.min.css);
 @import url(magnific-popup.css);
 @import url(font-awesome.min.css);
-@import url(main.css);
+@import url(style2.css);
 * {
   margin: 0;
   padding: 0; }
@@ -390,15 +390,6 @@ ul {
   border-radius: 2px 0 0 2px; }
   #scrollUp:focus, #scrollUp:hover {
     background-color: #000; }
-
-<html>
-      <head>
-      </head>
-
-      <body>
-          <div style="position:fixed; left:80px; top:300px; background-color: yellow;">
-            THis fixed positio.
-          </div>
 
 .dento-btn {
   position: relative;
